@@ -1,0 +1,28 @@
+{
+  "name": "delivery-scan-app",
+  "version": "1.0.0",
+  "description": "送货扫码APP - 扫描送货单据自动生成Excel",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "build:android": "eas build --platform android",
+    "build:ios": "eas build --platform ios"
+  },
+  "dependencies": {
+    "expo": "~50.0.0",
+    "expo-camera": "~14.0.0",
+    "expo-image-picker": "~14.0.0",
+    "expo-file-system": "~16.0.0",
+    "expo-sharing": "~12.0.0",
+    "react": "18.2.0",
+    "react-native": "0.73.0",
+    "react-native-sqlite-storage": "^6.0.0",
+    "xlsx": "^0.18.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
